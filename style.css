@@ -94,6 +94,26 @@ grid-template-columns: 3fr 1fr;
 .projects{
     grid-row:1/3;
     
+    
+
+}
+.project-cards{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(3,1fr);
+    gap:20px;
+    
+}
+
+.project-card {
+    outline:solid black 1px;
+    border-radius:10px;
+    padding:10px;
+    background-color:white;
+}
+
+.project-card p {
+    margin-top:10px;
 }
 
 .announcements {
